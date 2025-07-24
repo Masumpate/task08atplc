@@ -1,0 +1,104 @@
+/* body{background-color: rgb(12, 12, 12);}
+h1{color: rgb(223, 242, 241);}
+hr{color: rgb(248, 245, 243);}
+p{color: rgb(241, 234, 234);}
+ol{color: rgb(247, 247, 247);}
+h3{color: aliceblue;}
+h2{color: aliceblue;} */
+
+/* 
+header{
+    padding: 10px;
+    background-color: rgb(144, 177, 227);
+    margin: 0;
+}
+
+nav{
+    padding: 5px;
+    background-color: rgba(21, 130, 194, 0.398); */
+/* } */
+
+
+
+
+
+body {
+    
+    background-color: #fbfdfd;
+    
+}
+
+
+header {
+    background-color: #333;
+    color: rgb(22, 21, 21);
+    padding: 10px ;
+     text-align: center; 
+    background-image:url(.vscode/photo.jpg) ;
+}
+
+
+nav {
+    background-color: #7c9ee3;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #666;
+    border-radius: 5px;
+}
+
+
+p {
+    padding: 20px;
+    font-size: 18px;
+    text-align: justify;
+    color: #333;
+}
+
+
+img {
+    display: inline-block;
+    margin: 20px auto;
+    border-radius: 10%;
+    
+    border-color: rgb(20, 57, 191);
+    
+    border: 2px dotted rgb(21, 17, 17);
+    
+
+}
+
+p::first-line{color: aquamarine;
+font-variant: small-caps;}
+
+
+a:link{
+    color: rgb(12, 225, 12);
+}
+a:visited{color: #cc2e2e;}
+a:hover{color: aqua;}
+a:active{color: palevioletred;}
+
+
+
+
+.l1{
+    color: #7c9ee3;
+    
+    list-style-type: circle;
+}
+
+.l2{
+    color: #c72323;
+    list-style-type: georgian;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
